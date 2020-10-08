@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 # chromedriver will execute the program on our behalf
-DRIVER_PATH = "/Users/xavier/Desktop/chromedriver 2"
+DRIVER_PATH = "/path/to/chromedriver"
 driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
 # toronto district school board numbers are fed into the script here
